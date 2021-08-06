@@ -1,0 +1,4 @@
+1- Convert mp4 to wav:
+	ffmpeg -i <infile> -ac 2 -f wav <outfile>
+	Example:
+	ffmpeg -i test.mp4 -ac 2 -f wav test.wav
